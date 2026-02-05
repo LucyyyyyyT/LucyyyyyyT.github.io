@@ -1,0 +1,48 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 6px 10px;
+  margin: 6px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.hi {
+  border: 1px solid black;
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 8px;
+  color:forestgreen 
+}
+
+.highlight {
+    color:orange;
+    font-weight: bold;
+
+}
+
+.a {
+  color: blue;
+}
+
+p:hover, h1:hover, h2:hover {
+  background-color:yellow
+}
+
+.firstname {
+  background-color:lightpink
+}
+
+
+@media (max-width: 600px) {
+  body { background-color: brown; }
+}
+
+#lamo {
+  background-color:darkgreen 
+}
